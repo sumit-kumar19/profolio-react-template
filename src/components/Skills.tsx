@@ -1,5 +1,5 @@
 import React from "react";
-import { SiCplusplus, SiC, SiPython, SiJavascript, SiReact, SiHtml5, SiCss3, SiNextdotjs, SiFlask, SiVite, SiPostman } from "react-icons/si";
+import { SiCplusplus, SiC, SiPython, SiJavascript, SiReact, SiHtml5, SiCss3, SiFlask, SiVite, SiPostman } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { IconType } from "react-icons";
 
@@ -55,8 +55,8 @@ export default function SkillsPage() {
     <div className="min-h-screen bg-background text-foreground  ">
       <div className="container mx-auto px-4 py-8 ">
         <h1 className="text-4xl font-bold mb-8 text-center text-foreground ">My Skills</h1>
-        <SkillsSection title="Backend" skills={skillsData.Language} />
-        <SkillsSection title="Cloud & DevOps" skills={skillsData.WebDevlopment} />
+        <SkillsSection title="Languages" skills={skillsData.Language} />
+        <SkillsSection title="WebDevlopment" skills={skillsData.WebDevlopment} />
       </div>
     </div>
   )
