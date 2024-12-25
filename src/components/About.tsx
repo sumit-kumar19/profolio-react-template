@@ -67,7 +67,7 @@ function About() {
                     <p className='mb-4'>See my resume and coding profiles.</p>
 
                     <div className='action-section flex items-center mt-6 flex-wrap'>
-                        <a href={resume} target="_blank" rel="noopener noreferrer" className="resume-button inline-block px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white text-base font-bold rounded transition duration-300 ease-in-out hover:bg-blue-700 dark:hover:bg-blue-600 mr-4">
+                        <a href={resumeLink} target="_blank" rel="noopener noreferrer" className="resume-button inline-block px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white text-base font-bold rounded transition duration-300 ease-in-out hover:bg-blue-700 dark:hover:bg-blue-600 mr-4">
                             View Resume
                         </a>
                         <div className='icon-container flex items-center ml-6 flex-wrap'>
