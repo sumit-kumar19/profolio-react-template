@@ -53,7 +53,7 @@ import { FaEarlybirds } from "react-icons/fa";
 function About() {
     const resume = "/src/assets/image/Sumit_resume.pdf"; 
 
-    const resumeLink ="https://drive.google.com/file/d/14a_mVjgg0nnseNiiidBFceE8UhUH-vU8/view?usp=sharing";
+    const resumeLink ="https://drive.google.com/file/d/1Tbhk7WG7vsP3l3LjZDJ9YLL7QhV3gout/view?usp=drive_link";
     return (
         <div className='container mx-auto p-5 bg-background text-gray-800 dark:text-gray-200 transition-colors duration-200' id='about'>
             <div className='about-container flex flex-col text-left'>
